@@ -4,10 +4,7 @@
 
 #include <stdio.h>
 
-int* retrieve(int *a) {
-    return a;
-}
-
+int* retrieve(int *a) { return a; }
 
 int* increment(void) {
     static unsigned int counter = 0;
